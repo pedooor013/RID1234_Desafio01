@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    font-family: 'inter';
+}
+#upper-menu{
+    width: 100%;
+    height: 250px;
+    background-color: #303030;
+    color: #ffffff;
+}
+#main-title{
+    margin-left: 50px;
+    padding-top: 100px;
+}
+#upper-text{
+    margin-left: 50px;
+}
+#company-info{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+}
+.infos{
+    margin: auto;
+}
+.infos h2{
+    font-size: 30px;
+}
+.infos p{
+    text-decoration: none;
+    font-size: 20px;
+}
+#main-menus{
+    padding-top: 50px;
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#left-menu{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+#left-menu{
+    font-size: 20px;
+}
+#left-text{
+    font-size: 18px;
+}
+
+#img-room{
+    width: 400px;
+    margin-left: 200px;
+}
+#forms{
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: ;
+}
+#forms-title{
+    padding-top: 50px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C07212;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+button:hover{
+    transform: translateY(-7px);
+    background-color: #ac6713;
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px  rgb(116, 112, 112);
+}
+
